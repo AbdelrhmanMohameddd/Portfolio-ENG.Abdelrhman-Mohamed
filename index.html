@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abdelrhman Mohamed - Flutter Developer Portfolio">
+    <title>Abdelrhman Mohamed | Flutter Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AM</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="floating-icons">
+            <div class="icon flutter-icon">⚡</div>
+            <div class="icon dart-icon">🎯</div>
+            <div class="icon code-icon">💻</div>
+        </div>
+        <div class="container">
+            <div class="hero-container">
+                <!-- Left Side - Text Content -->
+                <div class="hero-text-side reveal">
+                    <div class="hero-name-container">
+                        <span class="hero-greeting">Hi, I'm</span>
+                        <h1 class="hero-name">Abdelrhman Mohamed</h1>
+                    </div>
+                    <div class="typing-container">
+                        <span class="typing-static">I'm a : </span>
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <p class="hero-intro">
+                        Experienced Flutter Developer | 2+ years creating high-performance, scalable Android & iOS apps
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="assets/cv/Abdelrhman_Mohamed_CV.pdf" download class="btn btn-primary">
+                            <span>Download CV</span>
+                            <div class="btn-ripple"></div>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>View Projects</span>
+                            <div class="btn-ripple"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side - Profile Image -->
+                <div class="hero-image-side reveal">
+                    <div class="profile-image-wrapper">
+                        <img src="assets/images/boda.jpg" alt="Abdelrhman Mohamed - Flutter Developer"
+                            class="profile-image">
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal">
+                <div class="about-image-wrapper">
+                    <img src="assets/images/boda2.jpeg" alt="Abdelrhman Mohamed" class="about-image">
+                    <div class="about-floating-icons">
+                        <div class="about-icon flutter-about-icon">⚡</div>
+                        <div class="about-icon dart-about-icon">🎯</div>
+                        <div class="about-icon code-about-icon">💻</div>
+                    </div>
+                </div>
+                <div class="about-text-side">
+                    <div class="about-card glass-card">
+                        <p class="about-text">
+                            Hi! I'm <span class="highlight-name"> Abdelrhman Mohamed</span>, a <span
+                                class="highlight-text">Flutter Developer</span> who loves turning ideas into smooth,
+                            beautiful mobile apps.
+                            I specialize in crafting high-performance,user friendly experiences for <span
+                                class="highlight-text">Android & iOS</span>.
+                        </p>
+                        <p class="about-text">
+                            When I'm not coding, you'll find me exploring <span class="highlight-text">UI/UX</span>
+                            trends, mentoring junior developers, or experimenting with new tech.
+                        </p>
+                        <p class="about-text">
+                            I thrive on creativity, <span class="highlight-text">clean architecture</span>, and building
+                            solutions that make a real impact.
+                        </p>
+                        <div class="about-skills">
+                            <span class="skill-badge">Communication</span>
+                            <span class="skill-badge">Problem-solving</span>
+                            <span class="skill-badge">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title reveal">Skills</h2>
+            <div class="skills-icons-grid reveal">
+                <div class="skill-icon-item glass-card" data-skill="Dart">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000"
+                            alt="Dart Icon" />
+                    </div>
+                    <span class="skill-name">Dart</span>
+                    <span class="skill-tooltip">Dart</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="Flutter">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000"
+                            alt="Flutter Icon" />
+                    </div>
+                    <span class="skill-name">Flutter</span>
+                    <span class="skill-tooltip">Flutter</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="Git">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git Icon" />
+                    </div>
+                    <span class="skill-name">Git</span>
+                    <span class="skill-tooltip">Git</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="Firebase">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+                            alt="Firebase Icon" />
+                    </div>
+                    <span class="skill-name">Firebase</span>
+                    <span class="skill-tooltip">Firebase</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="REST API">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=55497&format=png&color=000000"
+                            alt="REST API Icon" />
+                    </div>
+                    <span class="skill-name">REST API</span>
+                    <span class="skill-tooltip">REST API</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="UI/UX">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=yEzFx4cwLDIh&format=png&color=000000"
+                            alt="UI/UX Icon" />
+                    </div>
+                    <span class="skill-name">UI/UX</span>
+                    <span class="skill-tooltip">UI/UX</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="SQL">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=QSjnrUKYMnxO&format=png&color=000000"
+                            alt="SQL Icon" />
+                    </div>
+                    <span class="skill-name">SQL</span>
+                    <span class="skill-tooltip">SQL</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="C++">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="C++ Icon" />
+                    </div>
+                    <span class="skill-name">C++</span>
+                    <span class="skill-tooltip">C++</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="Python">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+                            alt="Python Icon" />
+                    </div>
+                    <span class="skill-name">Python</span>
+                    <span class="skill-tooltip">Python</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="Agile / Scrum">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=4hc08ZOYw8Ey&format=png&color=000000"
+                            alt="Agile / Scrum Icon" />
+                    </div>
+                    <span class="skill-name">Agile Scrum</span>
+                    <span class="skill-tooltip">Agile / Scrum</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="Clean Code">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=52518&format=png&color=000000"
+                            alt="Clean Code Icon" />
+                    </div>
+                    <span class="skill-name">Clean Code</span>
+                    <span class="skill-tooltip">Clean Code</span>
+                </div>
+
+                <div class="skill-icon-item glass-card" data-skill="SOLID Principles">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=S2PeUwSy0xqR&format=png&color=000000"
+                            alt="SOLID Principles Icon" />
+                    </div>
+                    <span class="skill-name">SOLID Principles</span>
+                    <span class="skill-tooltip">SOLID Principles</span>
+                </div>
+                <div class="skill-icon-item glass-card" data-skill="SOLID Principles">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=52539&format=png&color=000000"
+                            alt="SOLID Principles Icon" />
+                    </div>
+                    <span class="skill-name">GitHub</span>
+                    <span class="skill-tooltip">GitHub</span>
+                </div>
+                <div class="skill-icon-item glass-card" data-skill="SOLID Principles">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://img.icons8.com/?size=100&id=rVSB3GaDDURu&format=png&color=000000"
+                            alt="SOLID Principles Icon" />
+                    </div>
+                    <span class="skill-name">Problem Solving</span>
+                    <span class="skill-tooltip">Problem Solving</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Hire Me Section -->
+    <section id="why-hire" class="why-hire section">
+        <div class="container">
+            <h2 class="section-title reveal">Why Hire Me</h2>
+            <div class="hire-grid reveal">
+                <div class="hire-card glass-card">
+                    <div class="hire-icon">🚀</div>
+                    <h3 class="hire-title">Production-Ready Code</h3>
+                    <p class="hire-description">
+                        Clean, maintainable, and scalable code following industry best practices and design patterns.
+                    </p>
+                </div>
+                <div class="hire-card glass-card">
+                    <div class="hire-icon">🧠</div>
+                    <h3 class="hire-title">Problem-Solving Mindset</h3>
+                    <p class="hire-description">
+                        Strong analytical skills to identify issues and implement effective solutions efficiently.
+                    </p>
+                </div>
+                <div class="hire-card glass-card">
+                    <div class="hire-icon">🎯</div>
+                    <h3 class="hire-title">Business-Oriented Development</h3>
+                    <p class="hire-description">
+                        Focus on delivering value and meeting business objectives while maintaining technical
+                        excellence.
+                    </p>
+                </div>
+                <div class="hire-card glass-card">
+                    <div class="hire-icon">🤝</div>
+                    <h3 class="hire-title">Teamwork & Communication</h3>
+                    <p class="hire-description">
+                        Excellent collaboration skills with clear communication for seamless team integration.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title reveal">Experience</h2>
+            <div class="experience-timeline reveal">
+                <!-- Timeline Line -->
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-circle">🎓</div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <h3 class="experience-role">Flutter Instructor, ATEC</h3>
+                        <p class="experience-company"> Delivered Flutter training sessions, helping students understand
+                            both practical and theoretical aspects of building high-quality mobile applications.
+                        </p>
+                        </p>
+                        <p class="experience-duration">2022 – Present</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-circle">🎓</div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <h3 class="experience-role">Flutter Instructor, ADA EGY</h3>
+                        <p class="experience-company"> Taught Flutter development courses, guiding students in building
+                            complete and functional mobile applications.</p>
+                        <p class="experience-duration">2024 – 2025</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-circle">💼</div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <h3 class="experience-role">Freelance Flutter Developer </h3>
+                        <p class="experience-company"> Worked as a freelance Flutter developer on platforms like Upwork,
+                            Freelancer, Mostaql, and Khayil, collaborating with clients from Saudi Arabia, Jordan, and
+                            beyond to deliver high-quality mobile applications.</p>
+                        <p class="experience-duration">2023 – Present</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-circle">⚡</div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <h3 class="experience-role">Flutter Developer ,Payer EG</h3>
+                        <p class="experience-company"> Responsible for developing and managing both mobile applications
+                            and websites, handling projects end-to-end from design to deployment for Payer EG.</p>
+                        <p class="experience-duration">2022 – 2023</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-circle">⚡</div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <h3 class="experience-role">Flutter Developer, Scorpion</h3>
+                        <p class="experience-company"> Contributed to the design, development, and optimization of
+                            mobile apps and websites at Scorpion, ensuring smooth functionality and user-friendly
+                            experiences.</p>
+                        <p class="experience-duration">2021 – 2022</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-circle">⚡</div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <h3 class="experience-role">Flutter Developer, CAMP Petroleum Services</h3>
+                        <p class="experience-company"> Developed and maintained mobile applications and web solutions
+                            for CAMP Petroleum Services, focusing on efficient, reliable, and high-quality digital tools
+                            to support company operations.</p>
+                        <p class="experience-duration">2021 – 2022</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="certifications-header reveal">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <p class="certifications-subtitle">
+                    Recognitions, competitions and professional training that reflect my journey
+                    in mobile development and technology.
+                </p>
+            </div>
+
+            <div class="certifications-grid reveal">
+
+                <!-- Certificate 1: Flutter Development – Route Academy -->
+                <div class="cert-card glass-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="assets/images/1.png" alt="Flutter Certificate" class="cert-image">
+                        </div>
+                        <div class="cert-year">20/12/2024</div>
+                    </div>
+                    <h3 class="cert-title">Flutter Development</h3>
+                    <p class="cert-organization">Route Academy</p>
+                    <div class="cert-type">Certificate</div>
+                    <a href="https://drive.google.com/file/d/1LwIXOJXNeLJK3VF2l69THs1tG_lomCIg/view" target="_blank"
+                        class="cert-button btn btn-primary">
+                        <span>View Certificate</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        <div class="btn-ripple"></div>
+                    </a>
+                </div>
+
+                <!-- Certificate 2: Flutter Developer – NTI -->
+                <div class="cert-card glass-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="assets/images/2.png" alt="NTI Certificate" class="cert-image">
+                        </div>
+                        <div class="cert-year">27/3/2025</div>
+                    </div>
+                    <h3 class="cert-title">Flutter Developer</h3>
+                    <p class="cert-organization">NTI</p>
+                    <div class="cert-type">Certificate</div>
+                    <a href="https://drive.google.com/file/d/1Ls-sUAOCEqfEvNNvTAeNhBKYdYDRUCW1/view" target="_blank"
+                        class="cert-button btn btn-primary">
+                        <span>View Certificate</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        <div class="btn-ripple"></div>
+                    </a>
+                </div>
+
+                <!-- Certificate 3: IEEE Instructor Recognition -->
+                <div class="cert-card glass-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="assets/images/3.png" alt="IEEE Certificate" class="cert-image">
+                        </div>
+                        <div class="cert-year">20/4/2025</div>
+                    </div>
+                    <h3 class="cert-title">IEEE Instructor Recognition</h3>
+                    <p class="cert-organization">IEEE</p>
+                    <div class="cert-type">Recognition</div>
+                    <a href="https://drive.google.com/file/d/1M8eRFd_J45uMbdnClHc8LBaVSsuQc5rE/view" target="_blank"
+                        class="cert-button btn btn-primary">
+                        <span>View Certificate</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        <div class="btn-ripple"></div>
+                    </a>
+                </div>
+
+                <!-- Certificate 4: 1st Place – Ramadan Flutter Competition -->
+                <div class="cert-card glass-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="assets/images/4.png" alt="Competition Trophy" class="cert-image">
+                        </div>
+                        <div class="cert-year">1/3/2025</div>
+                    </div>
+                    <h3 class="cert-title">1st Place – Ramadan Flutter Competition</h3>
+                    <p class="cert-organization">Competition</p>
+                    <div class="cert-type">Achievement / Trophy</div>
+                    <a href="https://drive.google.com/file/d/1MHoOGb4hv0oE2kzp2-8kmM5wa4hsBazA/view" target="_blank"
+                        class="cert-button btn btn-primary">
+                        <span>View Certificate</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        <div class="btn-ripple"></div>
+                    </a>
+                </div>
+
+                <!-- Certificate 5: 1st Place – Website Development Competition -->
+                <div class="cert-card glass-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <img src="assets/images/5.png" alt="Competition Trophy" class="cert-image">
+                        </div>
+                        <div class="cert-year">19/5/2022</div>
+                    </div>
+                    <h3 class="cert-title">1st Place – Website Development Competition</h3>
+                    <p class="cert-organization">Competition</p>
+                    <div class="cert-type">Achievement / Trophy</div>
+                    <a href="https://drive.google.com/file/d/1MCfAuJ_O0qjB5O8IyUntg-e4p9IzRvqA/view" target="_blank"
+                        class="cert-button btn btn-primary">
+                        <span>View Certificate</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        <div class="btn-ripple"></div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="education-header reveal">
+                <h2 class="section-title">Education</h2>
+                <p class="education-subtitle">
+                    Academic background that supports my technical foundation.
+                </p>
+            </div>
+            <div class="education-content reveal">
+                <div class="education-card glass-card">
+                    <div class="education-icon-large">🎓</div>
+                    <div class="education-main">
+                        <div class="education-badges">
+                            <span class="education-badge badge-degree">Bachelor's Degree</span>
+                            <span class="education-badge badge-field">MIS</span>
+                            <span class="education-badge badge-grade">Very Good</span>
+                        </div>
+                        <h3 class="education-degree">
+                            <span class="education-icon">🎓</span>
+                            Bachelor's Degree in Management Information Systems (MIS)
+                        </h3>
+                        <p class="education-institute">
+                            <span class="education-icon">🏫</span>
+                            Obour Higher Institute for Management, Computers & Information Systems
+                        </p>
+                        <div class="education-details">
+                            <div class="education-detail-item">
+                                <span class="education-detail-icon">📘</span>
+                                <span class="education-detail-label">Field:</span>
+                                <span class="education-detail-value">Management Information Systems</span>
+                            </div>
+                            <div class="education-detail-item">
+                                <span class="education-detail-icon">⭐</span>
+                                <span class="education-detail-label">Grade:</span>
+                                <span class="education-detail-value">Very Good</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title reveal">Projects</h2>
+            <div class="projects-grid reveal">
+                <!-- Smart Chess Project -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/projects/4.png" alt="Smart Chess Project" class="project-image">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Smart Chess Graduation Project</h3>
+                        <div class="project-badge">Featured</div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Raspberry Pi</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a smart chess board integrating hardware with a mobile application.
+                        Led UI/UX development and contributed to hardware logic.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdelrhmanMohameddd/ChessApp" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- E-Commerce App -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/projects/1.png" alt="E-Commerce App" class="project-image">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">E-Commerce App</h3>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                    <p class="project-description">
+                        Full-featured e-commerce application with authentication, product catalog,
+                        shopping cart, and order tracking functionality.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/a-saber/NTI-Ecommerce-API" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Movies App -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/projects/3.png" alt="Movies App" class="project-image">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Movies App</h3>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                    <p class="project-description">
+                        Movie discovery app with trending movies, upcoming releases,
+                        search functionality, filters, and detailed movie information.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdelrhmanMohameddd/MoviseApp" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- To-Do App -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/projects/2.png" alt="To-Do App" class="project-image">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">To-Do App</h3>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Sqflite</span>
+                        <span class="tech-tag">Bloc</span>
+                    </div>
+                    <p class="project-description">
+                        Task management application with add/edit/delete functionality,
+                        date filtering, and clean, intuitive UI built with BLoC pattern.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdelrhmanMohameddd/ToDo" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- Project 1: Ai App Chat -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/projects/5.png" alt="Ai App Chat" class="project-image">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Ai App Chat</h3>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">Bloc</span>
+                    </div>
+                    <p class="project-description">
+                        Intelligent chat application powered by AI, enabling natural conversations,
+                        message history, and smart suggestions with a clean, responsive UI.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdelrhmanMohameddd" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Media App -->
+                <div class="project-card glass-card">
+                    <div class="project-image-wrapper">
+                        <img src="assets/images/projects/6.jpg" alt="Media App" class="project-image">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Media App</h3>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Provider</span>
+                    </div>
+                    <p class="project-description">
+                        Multimedia application for browsing, streaming, and managing videos and audio files,
+                        featuring playlists, search, and smooth, user-friendly navigation.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdelrhmanMohameddd" target="_blank" class="project-link">
+                            <span>GitHub</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-header reveal">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-subtitle">
+                    Let's build something amazing together.<br>
+                    Feel free to reach out for opportunities, collaborations, or freelance work.
+                </p>
+            </div>
+            <div class="contact-content reveal">
+                <!-- Left Side - Contact Info -->
+                <div class="contact-info-side">
+                    <div class="contact-cards">
+                        <a href="mailto:abdelrhman.mohamed@ieee.org" class="contact-card glass-card">
+                            <div class="contact-icon">📧</div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-button">Email Me</span>
+                        </a>
+                        <a href="https://wa.me/201278814819" target="_blank" class="contact-card glass-card">
+                            <div class="contact-icon">📞</div>
+                            <h3 class="contact-title">Phone / WhatsApp</h3>
+                            <span class="contact-button">Chat on WhatsApp</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abdulrahmanmohamd/" target="_blank"
+                            class="contact-card glass-card">
+                            <div class="contact-icon">💼</div>
+                            <h3 class="contact-title">LinkedIn</h3>
+                            <span class="contact-button">LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/AbdelrhmanMohameddd" target="_blank"
+                            class="contact-card glass-card">
+                            <div class="contact-icon">💻</div>
+                            <h3 class="contact-title">GitHub</h3>
+                            <span class="contact-button">GitHub Profile</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side - Contact Form -->
+                <div class="contact-form-side">
+                    <div class="contact-form-container glass-card">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="full-name" class="form-label">Full Name</label>
+                                <input type="text" id="full-name" name="full-name" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-address" class="form-label">Email Address</label>
+                                <input type="email" id="email-address" name="email-address" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-input form-textarea"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-submit">
+                                <span>Send Message</span>
+                                <div class="btn-ripple"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2025 ENG.Abdelrhman Mohamed. All rights reserved.</p>
+                <p class="footer-text">Built with Flutter passion 💙</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mouse Glow Effect -->
+    <div class="mouse-glow"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

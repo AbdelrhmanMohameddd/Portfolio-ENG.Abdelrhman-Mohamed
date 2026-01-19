@@ -80,10 +80,12 @@ Task management app with add/edit/delete functionality, date filters, and clean 
 ## Screenshots
 You can add project screenshots here to showcase UI and design:
 
-![Smart Chess](assets/images/projects/1.png)  
-![E-Commerce App](assets/screenshots/ecommerce.png)  
-![Movies App](assets/screenshots/movies.png)  
-![To-Do App](assets/screenshots/todo.png)  
+![Smart Chess](assets/images/projects/4.png)  
+![E-Commerce App](assets/images/projects/1.png)  
+![Movies App](assets/images/projects/3.png)  
+![To-Do App](assets/images/projects/2.png)  
+![AI App](assets/images/projects/5.png)  
+![Madie App](assets/images/projects/6.png)  
 
 > Place your screenshots in the `assets/screenshots/` folder or use direct online links.
 

@@ -80,7 +80,7 @@ Task management app with add/edit/delete functionality, date filters, and clean 
 ## Screenshots
 You can add project screenshots here to showcase UI and design:
 
-![Smart Chess](assets/screenshots/smart-chess.png)  
+![Smart Chess](assets/images/projects/1.png)  
 ![E-Commerce App](assets/screenshots/ecommerce.png)  
 ![Movies App](assets/screenshots/movies.png)  
 ![To-Do App](assets/screenshots/todo.png)  
